@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="icon" href="./src/images/Youtube-512.webp" />
+    <title>Youtube</title>
+</head>
+
+<body>
+    <nav>
+        <img alt="youtube logo" src="./src/images/YouTube-Logo.png" width="170" />
+       
+                <form action="http://www.youtube.com/results" method="get" class="form">
+                <input name="search_query" type="text" class="searchBar" placeholder="Search" />
+            <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
+        </form>
+        <button class="optionButton" type="submit"><i class="fas fa-upload"></i></button>
+        <button class="optionButton" type="submit"><i class="fas fa-th"></i></button>
+        <button class="optionButton" type="submit"><i class="fas fa-ellipsis-v"></i></button>
+        <button class="signinButton" type="submit">Sign in</button>
+    </nav>
+    <div class="body">
+        <main class="body-container">
+            <div class="video-container">
+                
+<iframe width="420" height="345" src="https://www.youtube.com/embed/hzT1sZcmbZw">
+</iframe>
+</div>
+            <div class="legend">
+                <h2>One Direction - Drag Me Down (Lyrics)</h2>
+                <h3 class="views">5,946,923 views•31 Jul 2020</h3>
+                <div class="action-container">
+                    <button class="action-button"><i class="fas fa-thumbs-up"></i>67K</button>
+                    <button class="action-button"><i class="fas fa-thumbs-down"></i>813</button>
+                    <button class="action-button"><i class="fas fa-share"></i> Share</button>
+                    <button class="action-button"><i class="fas fa-list"></i> Save</button>
+                </div>
+                <br />
+                <div class="channel">
+                    <div class="channel-widget">
+                        <img alt="avatar" src="./src/images/avatar.png"  width="50" 
+     height="50" />
+                        <div class="channel-text">
+                            <strong>AuraEpics</strong>
+                            <h3>16.5K subscribers</h3>
+                        </div>
+                    </div>
+                    <button class="subscribe-button">SUBSCRIBE</button>
+                </div>
+                <div class="description">
+                    <p> Lyrics:
+<br/><br/>
+I've got fire for a heart
+I'm not scared of the dark
+You've never seen it look so easy
+I got a river for a soul
+And baby, you're a boat
+Baby, you're my only reason
+
+If I didn't have you, there would be nothing left
+The shell of a man who could never be his best
+If I didn't have you, I'd never see the sun
+You taught me how to be someone, yeah
+All my life, you stood by me
+When no one else was ever behind me
+All these lights, they can't blind me
+With your love, nobody can drag me down
+All my life, you stood by me
+When no one else was ever behind me
+All these lights, they can't blind me
+With your love, nobody can drag me down
+
+
+Nobody, nobody
+Nobody can drag me down
+Nobody, nobody
+Nobody can drag me down
+
+I've got fire for a heart
+I'm not scared of the dark
+You've never seen it look so easy
+I got a river for a soul
+And baby, you're a boat
+Baby, you're my only reason
+
+If I didn't have you, there would be nothing left
+The shell of a man who could never be his best
+If I didn't have you, I'd never see the sun
+You taught me how to be someone, yeah
+
+All my life, you stood by me
+When no one else was ever behind me
+All these lights, they can't blind me
+With your love, nobody can drag me down
+
+Nobody, nobody
+Nobody can drag me down
+Nobody, nobody
+Nobody can drag me
+
+All my life, you stood by me
+When no one else was ever behind me
+All these lights, they can't blind me
+With your love, nobody can drag me down
+All my life, you stood by me
+When no one else was ever behind me
+All these lights, they can't blind me
+With your love, nobody can drag me down
+
+Nobody, nobody
+Nobody can drag me down
+Nobody, nobody
+Nobody can drag me down
+Nobody, nobody
+Nobody can drag me down
+Nobody, nobody
+Nobody can drag me down
+</p>
+                </div>
+            </div>
+        </main>
+        <aside class="sidebar">
+            <strong>Up next</strong>
+            <div class="recomended-video">
+                <img alt="Video preview" src="src/images/videoimage.png" />
+                
+                <div class="recomended-text">
+                   
+
+      <p class="recomended-title">Treat you better-shawn mendes</p>
+     
+    <h3>Youtube<br>1 year ago</h3>
+                </div>
+            </div>
+
+
+            <div class="recomended-video">
+                <img alt="Video preview" src="src/images/videoimage3.png" />
+                <div class="recomended-text">
+                    <p class="recomended-title">Lil Nas X - Old Town Road (Lyrics) ft. Billy Ray Cyrus</p>
+                    <h3>Youtube<br>5 months ago</h3>
+                </div>
+            </div>
+             <div class="recomended-video">
+                <img alt="Video preview" src="src/images/videoimage2.png" />
+                <div class="recomended-text">
+                    <p class="recomended-title"> Imagine Dragons - Believer (with lyrics)</p>
+                    <h3>Youtube<br>2 months ago</h3>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <script src="https://kit.fontawesome.com/58ae6287d2.js" crossorigin="anonymous"></script>
+    <script>
+        let text = document.getElementsByClassName("recomended-title")
+        for (let i = 0; i < text.length; i++) {
+            text[i].title = text[i].innerText
+        }
+    </script>
+</body>
+
+</html>
