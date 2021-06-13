@@ -5,17 +5,17 @@ body {
 }
 
 button {
-  border-radius: 5px;
+  border-radius: 15px;
   border: none;
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 300;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 26px;
   color: #a1a1a1;
   font-weight: 300;
 }
